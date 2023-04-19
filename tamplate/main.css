@@ -1,0 +1,188 @@
+header {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background: -webkit-linear-gradient(right, rgb(219, 15, 15), rgb(0, 132, 255)) center;
+    width: 45%;
+    margin-left: 450px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 1px 8px black;
+  }
+  
+  h2 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background: -webkit-linear-gradient(right, rgb(7, 7, 5), rgb(218, 216, 216));
+    width: 350px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 1px 8px black;
+  }
+  
+  .form-container {
+    margin-left: 520px;
+    bottom: 100px;
+    max-width: 500px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background: -webkit-linear-gradient(top, red, yellow);
+  }
+  
+  .form-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+  }
+  
+  td {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-align: left;
+  }
+  
+  .my-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 50px;
+  }
+  
+  .my-table th,
+  .my-table td {
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .my-table th {
+    background-color: coral;
+  }
+  
+  .my-table tr:nth-child(even) {
+    background-color: burlywood;
+  }
+  
+  .my-table tr:hover {
+    background-color: #ebebeb;
+  }
+  
+  input[type="text"] {
+    max-width: 100%;
+    background-color: blanchedalmond;
+    border: none;
+    font-family: "Raleway SemiBold", sans-serif;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 16px;
+    margin: 10px;
+  }
+  
+  form table input[type="submit"] {
+    display: block;
+    background-color: blanchedalmond;
+    font-family: Raleway SemiBold, sans-serif;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  form table input[type="submit"]:hover {
+    background-color: #ef7215 !important;
+    transition: 0.5s all !important;
+    cursor: pointer;
+  }
+  
+  .sidenav {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    border-radius: 5px;
+    border-top: 3px solid burlywood;
+    border-bottom: 3px solid burlywood;
+    border-right: 3px solid burlywood;
+    border-left: 3px solid burlywood;
+    background: -webkit-linear-gradient(right, red, yellow);
+  }
+  
+  .sidenav a {
+    padding: 15px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+    color: blanchedalmond;
+    display: block;
+  }
+  
+  .sidenav a:hover {
+    background-color: coral;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {
+      padding-top: 15px;
+    }
+    .sidenav a {
+      font-size: 18px;
+    }
+  }
+  
+  .content {
+    background-color: darksalmon;
+    padding: 50px 20px;
+    margin-bottom: 20px;
+    margin-right: 100px;
+    float: right;
+    width: 75%;
+  }
+  
+  .content h1 {
+    margin-bottom: 20px;
+    font-size: 35px;
+  }
+  
+  .content p {
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 25px;
+  }
+  
+  .btn-delete {
+    border: 1px solid orange;
+    background: orange url("../foto/delete.png") no-repeat 5px 4px;
+    height: 22px;
+    padding-left: 15px;
+    padding-top: 5px;
+  }
+  
+  .btn-update {
+    border: 1px solid #00b3a8;
+    background: #00b3a8 url("../foto/update.png") no-repeat 5px 4px;
+    height: 22px;
+    padding-left: 15px;
+    padding-top: 5px;
+  }
+  
+  footer {
+    margin-top: 165px;
+    clear: both;
+    text-align: center;
+    background: -webkit-linear-gradient(right, red, yellow);
+    padding: 20px;
+    color: beige;
+    border-radius: 5px;
+    font-family: "Raleway SemiBold", sans-serif;
+    border-top: 3px solid burlywood;
+    border-bottom: 3px solid burlywood;
+    border-right: 3px solid burlywood;
+    border-left: 3px solid burlywood;
+  }
